@@ -3,8 +3,8 @@
   "checks": [
     {
       "kind": "scene",
-      "path": "res://test/test_suite.tscn",
-      "expect": "[game-generic-tests] PASS:",
+      "path": "res://test/nobe_test_suite.tscn",
+      "expect": "[nobe-tests] PASS:",
       "profile": "source"
     },
     {

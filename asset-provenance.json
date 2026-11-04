@@ -1,17 +1,142 @@
 {
   "assets": {
+    "assets/fonts/NotoSansArabic-Bold.ttf": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:5da47f4b66a913e15639eee9a0dfdea664bf3850f9fb26c05b85e1bf099cf018",
+      "shipped": null,
+      "size": 255388,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/fonts/NotoSansArabic-Regular.ttf": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e",
+      "shipped": null,
+      "size": 244072,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/generated/neutral-crest.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/core/role_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:ba08ebb21800603a42cf1286d93007f618cd9bb4e282df0257b604225e912a51",
+      "shipped": null,
+      "size": 3409511,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/core/role_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/generated/nobe-emblem.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "project.godot",
+        "scripts/main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:6d9afcb5025d2fe198933e5a4a50d59041e1d73ecfc1df7c9f75b638ec2ba893",
+      "shipped": null,
+      "size": 4413612,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "project.godot",
+        "scripts/main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/generated/villager-crest.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/core/role_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:475a02b0a16199faaf12d50161bb6f8c7b9b05445aee9615c30d34df5ea6c5a2",
+      "shipped": null,
+      "size": 2935852,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/core/role_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/generated/werewolf-crest.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/core/role_catalog.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:718174ce1175213604fad251f242e6d46dec0d4cae3046e4b2fd5bda824c15d5",
+      "shipped": null,
+      "size": 3935634,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/core/role_catalog.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
     "assets/template/characters/runner.png": {
       "declaredUseEvidence": [],
       "generator": {},
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "project.godot",
-        "scripts/entities/runner.gd",
-        "scripts/main.gd",
-        "scripts/ui/title_art.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:c88485773d6ff9361e036f37d8ac76fb77b8c3f7c041c3f52c8dd222adc8cc21",
       "shipped": null,
@@ -19,15 +144,10 @@
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "project.godot",
-        "scripts/entities/runner.gd",
-        "scripts/main.gd",
-        "scripts/ui/title_art.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/characters/sentinel.png": {
@@ -36,10 +156,7 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/entities/sentinel.gd",
-        "scripts/ui/title_art.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:0d9fb751bca5507ba14f7090573e6605a94753390a9e7c53bf2f590f0a24918d",
       "shipped": null,
@@ -47,13 +164,10 @@
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/entities/sentinel.gd",
-        "scripts/ui/title_art.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/environment/backdrop.png": {
@@ -62,9 +176,7 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/main.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:ec4ab7867e60fb483dd438459f587b478aac4c1e71ec4fe509ce74a18de34216",
       "shipped": null,
@@ -72,12 +184,10 @@
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/main.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/environment/foreground.png": {
@@ -86,9 +196,7 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/main.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:4b6916024c69961fbfa7cdc929c68f547fea4561e61ebdb3405b3aba0efbd94d",
       "shipped": null,
@@ -96,12 +204,10 @@
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/main.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/fonts/Figtree-VF.subset.woff2": {
@@ -122,7 +228,7 @@
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [
         "assets/template/fonts/ui_bold.tres",
@@ -170,12 +276,7 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "assets/template/fonts/display/generic_eyebrow.tres",
-        "assets/template/fonts/display/generic_heading.tres",
-        "assets/template/fonts/display/generic_menu.tres",
-        "assets/template/fonts/display/generic_title.tres"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:438fbf4582548e76b266a738f2c11bcbd5137978f2d2e2f3aaabd49df69186f2",
       "shipped": null,
@@ -183,15 +284,10 @@
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "assets/template/fonts/display/generic_eyebrow.tres",
-        "assets/template/fonts/display/generic_heading.tres",
-        "assets/template/fonts/display/generic_menu.tres",
-        "assets/template/fonts/display/generic_title.tres"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/powerups/energy.png": {
@@ -200,11 +296,7 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/game/maze_world.gd",
-        "scripts/main.gd",
-        "scripts/ui/title_art.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:ffd7906f240f928e785d7c19a9e7a7b5dfab0d7483be5205dda3e4ba17ebe06a",
       "shipped": null,
@@ -212,14 +304,10 @@
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/game/maze_world.gd",
-        "scripts/main.gd",
-        "scripts/ui/title_art.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/powerups/magnet.png": {
@@ -228,9 +316,7 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/game/maze_world.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:6e7354aa6510a462717218b09b9d784bb161b87878bff62ef4f2a9d03c053de7",
       "shipped": null,
@@ -238,12 +324,10 @@
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/game/maze_world.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/powerups/overdrive.png": {
@@ -252,10 +336,7 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/game/maze_world.gd",
-        "scripts/ui/title_art.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:6a48a85886c0551c1af0df576b0225f0ec3ae86b326fd84fc614083fbfe2908b",
       "shipped": null,
@@ -263,13 +344,10 @@
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/game/maze_world.gd",
-        "scripts/ui/title_art.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/powerups/shield.png": {
@@ -278,10 +356,7 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/game/maze_world.gd",
-        "scripts/ui/title_art.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:8cebf0cf730ca35c8c8697192ef78121c926442328a0725e0bd3e31701d64f13",
       "shipped": null,
@@ -289,13 +364,10 @@
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/game/maze_world.gd",
-        "scripts/ui/title_art.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/powerups/slow_field.png": {
@@ -304,9 +376,7 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/game/maze_world.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:96874c000866b2e7503b40da73888afb918ae36e462f51488415157da52a8637",
       "shipped": null,
@@ -314,12 +384,10 @@
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/game/maze_world.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/ui/loading-background.png": {
@@ -328,9 +396,7 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "project.godot"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:16dde3061f4e60802f8f0d1a6b875e72b6add05192237b03fef1fd313968a13a",
       "shipped": null,
@@ -340,10 +406,8 @@
       },
       "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "project.godot"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/ui/pause_glass.png": {
@@ -352,9 +416,7 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/main.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:c88a4725838df85e72c7270865848f275b62c525c5679a2a8b7ecefb1af82d4b",
       "shipped": null,
@@ -362,12 +424,10 @@
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/main.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/ui/title_glass.png": {
@@ -376,9 +436,7 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/main.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:8860db07768f093d4effea10b51431f76a1552d4bc7fd4e57757f189c51f0429",
       "shipped": null,
@@ -386,12 +444,10 @@
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/main.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     }
   },
@@ -424,9 +480,9 @@
     "exportedHostMedia": null,
     "files": {
       "downloaded": 0,
-      "retained": 15,
+      "retained": 21,
       "shipped": null,
-      "used": 15
+      "used": 7
     },
     "origins": {
       "ai": {
@@ -457,12 +513,12 @@
       "template": {
         "retained": 15,
         "shipped": null,
-        "used": 15
+        "used": 2
       },
       "unknown": {
-        "retained": 0,
+        "retained": 6,
         "shipped": null,
-        "used": 0
+        "used": 5
       }
     },
     "packs": {
@@ -479,7 +535,120 @@
       "retained": 0,
       "shipped": null,
       "used": 0
+    },
+    "visualCoverage": {
+      "approvedRevision": 3,
+      "blueprintId": "gbp_d3ff588c22f317a7930aa53a",
+      "committedRoles": 6,
+      "expectedDigest": "55f97c080d9cbe232b4862f3ae86d672b857a04182269e9427e2f6d37fd52e53",
+      "fulfilledRoles": 0,
+      "roles": [
+        {
+          "id": "character-card-art",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "villager-role-visuals",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "werewolf-role-visuals",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "neutral-role-visuals",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "secret-reveal-treatment",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "phase-state-treatment",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        }
+      ],
+      "search": {
+        "checkedPages": 0,
+        "outcomes": 0,
+        "overflowEvents": 0,
+        "requests": 0
+      },
+      "selectedButUnusedAssets": [],
+      "staleRenderedEvidence": [],
+      "status": "incomplete",
+      "unexplainedFallbacks": [],
+      "unresolvedRoles": [
+        "character-card-art",
+        "villager-role-visuals",
+        "werewolf-role-visuals",
+        "neutral-role-visuals",
+        "secret-reveal-treatment",
+        "phase-state-treatment"
+      ],
+      "visualQuality": "requires_agent_review"
     }
   },
-  "version": 1
+  "version": 1,
+  "visualCoverage": {
+    "attempts": {},
+    "expected": {
+      "approvedRevision": 3,
+      "blueprintId": "gbp_d3ff588c22f317a7930aa53a",
+      "digest": "55f97c080d9cbe232b4862f3ae86d672b857a04182269e9427e2f6d37fd52e53",
+      "roles": [
+        {
+          "description": "تمنحك منظومة رسوم ثنائية الأبعاد متناسقة تميّز كل شخصية داخل بطاقة الدور السرية وشاشات الاختيار والمراجعة، مع الحفاظ على الغموض والوضوح على شاشة الهاتف.",
+          "id": "character-card-art",
+          "label": "رسوم بطاقات الشخصيات"
+        },
+        {
+          "description": "تُظهر لك شخصيات القرويين بلغة بصرية موحّدة تعتمد الأخضر الداكن وتفاصيل مهنية غامضة من دون كشف معلومات إضافية خارج الدور المعروض.",
+          "id": "villager-role-visuals",
+          "label": "هوية أدوار القرويين"
+        },
+        {
+          "description": "تُظهر لك شخصيات المستذئبين بهوية حمراء داكنة ومهدِّدة ومقروءة، مع تمييز واضح عن بقية الفرق داخل بطاقات الأدوار وشاشات الليل.",
+          "id": "werewolf-role-visuals",
+          "label": "هوية أدوار المستذئبين"
+        },
+        {
+          "description": "تُظهر لك الشخصيات المحايدة بهوية بنفسجية وذهبية متوازنة تفرّقها عن القرويين والمستذئبين مع الحفاظ على الأسلوب الغامض نفسه.",
+          "id": "neutral-role-visuals",
+          "label": "هوية الأدوار المحايدة"
+        },
+        {
+          "description": "تمنحك معالجة بصرية بسيطة لشاشات العرض والإخفاء وتسليم الهاتف، بحيث تدعم خصوصية اللاعب الحالي وتمنع التباس الانتقال إلى اللاعب التالي من دون إضافة مشاهد زخرفية.",
+          "id": "secret-reveal-treatment",
+          "label": "معالجة كشف الدور وتسليم الهاتف"
+        },
+        {
+          "description": "تجعل مراحل الليل والنهار والتصويت والوفاة والحماية والهجوم والنجاة بالمقاومة واضحة لك عبر حالات لونية وتكوينات واجهة متناسقة مع الهوية الداكنة واتجاه RTL.",
+          "id": "phase-state-treatment",
+          "label": "معالجة حالات الليل والنهار والتصويت"
+        }
+      ]
+    },
+    "overflowEvents": 0,
+    "resolutions": {},
+    "version": 1
+  }
 }
