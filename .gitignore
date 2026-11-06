@@ -21,6 +21,9 @@ node_modules/
 /assets/**/*.otf
 /assets/**/*.woff
 /assets/**/*.woff2
+!/assets/template/fonts/Figtree-VF.subset.woff2
+!/assets/template/fonts/NotoSansSC-VF.subset.woff2
+!/assets/template/fonts/display/Sora-VF.subset.woff2
 
 !site/**
 
